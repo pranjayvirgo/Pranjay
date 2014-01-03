@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="SpringMVC1">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../Software/eclipse-jee-juno-SR1-win32/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="Web App Libraries.libraryclasspath">
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.aop-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.asm-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.aspects-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.beans-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.context-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.context.support-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.core-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.expression-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.instrument-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.instrument.tomcat-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.jms-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.orm-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.oxm-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.test-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.web-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.web.portlet-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.web.servlet-3.0.5.RELEASE.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/org.springframework.web.struts-3.0.5.RELEASE.jar"/>
+    </path>
+    <path id="EAR Libraries.libraryclasspath"/>
+    <path id="springnew.userclasspath">
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.aop-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.asm-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.aspects-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.beans-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.context.support-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.context-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.core-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.expression-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.instrument.tomcat-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.instrument-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.jdbc-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.jms-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.orm-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.oxm-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.test-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.transaction-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.web.portlet-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.web.servlet-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.web.struts-3.0.5.RELEASE.jar"/>
+        <pathelement location="C:/Users/pranjay.monu-PC/Downloads/spring-framework-3.0.5.RELEASE/spring-framework-3.0.5.RELEASE/dist/org.springframework.web-3.0.5.RELEASE.jar"/>
+    </path>
+    <path id="SpringMVC1.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="EAR Libraries.libraryclasspath"/>
+        <path refid="springnew.userclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="SpringMVC1.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>
