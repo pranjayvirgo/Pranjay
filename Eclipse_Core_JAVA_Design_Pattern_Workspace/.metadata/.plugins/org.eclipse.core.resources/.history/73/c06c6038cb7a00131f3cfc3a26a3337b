@@ -1,0 +1,16 @@
+package com.pranjay;
+
+import java.util.concurrent.Semaphore;
+
+public class PersonResource implements Runnable{
+	Semaphore semaphore=new Semaphore(2);
+@Override
+	public void run() {
+		// TODO Auto-generated method stub
+	sayHello();
+	}
+
+public void sayHello(){
+	System.out.println("pranjay");
+}
+}

@@ -1,0 +1,26 @@
+package com.pranjay;
+
+import java.util.concurrent.Semaphore;
+
+public class PersonResource implements Runnable{
+	Semaphore semaphore=new Semaphore(2);
+	 static int count=0;
+@Override
+	public void run(){
+		// TODO Auto-generated method stub
+	try{
+	semaphore.acquire();
+	sayHello();
+	semaphore.release();
+	}
+	catch(InterruptedException ie){
+		ie.printStackTrace();
+	}
+	}
+
+public void sayHello(){
+	System.out.println(count++);
+	System.out.println(Thread.currentThread().getName());
+	System.out.println("pranjay");
+}
+}

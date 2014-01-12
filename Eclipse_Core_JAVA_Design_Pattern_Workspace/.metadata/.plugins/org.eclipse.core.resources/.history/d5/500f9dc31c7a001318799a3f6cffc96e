@@ -1,0 +1,18 @@
+package com.pranjay;
+
+import com.pranjay.Person.PersonBuilder;
+
+public class BuildPersonObject {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+PersonBuilder personBuilder=new Person.PersonBuilder("pranjay","singh").setEmploymentType("salaried").setMarried(true).buildPerson();
+personBuilder.setEmploymentType("employes");
+personBuilder.setMarried(true);
+personBuilder.buildPerson();
+	}
+
+}

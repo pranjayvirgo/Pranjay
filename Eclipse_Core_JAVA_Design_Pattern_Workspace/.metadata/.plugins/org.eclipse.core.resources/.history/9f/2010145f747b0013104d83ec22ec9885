@@ -1,0 +1,23 @@
+
+public class FibonacciProblem {
+04	  
+05	 public int n;
+06	 
+07	 public FibonacciProblem(int n) {
+08	  this.n = n;
+09	 }
+10	  
+11	 public long solve() {
+12	  return fibonacci(n);
+13	 }
+14	  
+15	 private long fibonacci(int n) {
+16	  System.out.println("Thread: " +
+17	   Thread.currentThread().getName() + " calculates " + n);
+18	  if (n <= 1)
+19	   return n;
+20	  else
+21	   return fibonacci(n-1) + fibonacci(n-2);
+22	 }
+23	 
+24	}

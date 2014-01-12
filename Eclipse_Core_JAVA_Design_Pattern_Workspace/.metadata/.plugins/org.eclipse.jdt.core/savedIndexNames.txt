@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+F:\Personal_GIT_Code\Pranjay\Eclipse_Core_JAVA_Design_Pattern_Workspace\.metadata\.plugins\org.eclipse.jdt.core
+2555488631.index
+627444988.index
+2050489693.index
+2189080004.index
+3479340027.index

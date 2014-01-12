@@ -1,0 +1,14 @@
+package com.pranjay;
+
+public class PersonResource implements Runnable{
+	
+@Override
+	public void run() {
+		// TODO Auto-generated method stub
+	sayHello();
+	}
+
+public void sayHello(){
+	System.out.println("pranjay");
+}
+}

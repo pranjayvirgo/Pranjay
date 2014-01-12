@@ -1,0 +1,23 @@
+package com.javacodegeeks.concurrency.forkjoin;
+02	 
+03	import org.perf4j.StopWatch;
+04	 
+05	public class SillyWorker {
+06	  
+07	 public static void main(String[] args) throws Exception {
+08	   
+09	  int n = 10;
+10	   
+11	  StopWatch stopWatch = new StopWatch();
+12	  FibonacciProblem bigProblem = new FibonacciProblem(n);
+13	   
+14	  long result = bigProblem.solve();  
+15	  stopWatch.stop();
+16	   
+17	  System.out.println("Computing Fib number: " + n);
+18	  System.out.println("Computed Result: " + result);
+19	  System.out.println("Elapsed Time: " + stopWatch.getElapsedTime());
+20	   
+21	 }
+22	 
+23	}

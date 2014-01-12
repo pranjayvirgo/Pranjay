@@ -1,0 +1,50 @@
+package com.pranjay;
+
+
+public class Person {
+private String firstName;
+private String lastName;
+private int age;
+private String street1;
+private String street2;
+private String city;
+private int postCode;
+private boolean married;
+private String employmentType;
+
+public static class PersonBuilder{
+	PersonBuilder(String firstName,String lastName){
+		
+	}
+public void setStreet1(String street1) {
+	this.street1 = street1;
+}
+public void setStreet2(String street2) {
+	this.street2 = street2;
+}
+public void setPostCode(int postCode) {
+	this.postCode = postCode;
+}
+public void setMarried(boolean married) {
+	this.married = married;
+}
+public void setEmploymentType(String employmentType) {
+	this.employmentType = employmentType;
+}
+public Person buildPerson(){
+	return new Person(this);
+}
+public Person(PersonBuilder personBuild) {
+	super();
+	this.firstName =personBuild.
+	this.lastName = lastName;
+	this.age = age;
+	this.street1 = street1;
+	this.street2 = street2;
+	this.city = city;
+	this.postCode = postCode;
+	this.married = married;
+	this.employmentType = employmentType;
+}
+
+}

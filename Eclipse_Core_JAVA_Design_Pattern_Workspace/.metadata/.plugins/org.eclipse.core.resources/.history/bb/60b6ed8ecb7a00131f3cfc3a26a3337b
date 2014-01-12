@@ -1,0 +1,7 @@
+package com.pranjay;
+
+public class SemaphoreTest {
+public staic void main(String []args){
+	
+}
+}

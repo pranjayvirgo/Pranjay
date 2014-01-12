@@ -1,0 +1,7 @@
+package com.pranjay;
+
+public class PersonResource {
+public void sayHello(){
+	System.out.println("pranjay");
+}
+}
