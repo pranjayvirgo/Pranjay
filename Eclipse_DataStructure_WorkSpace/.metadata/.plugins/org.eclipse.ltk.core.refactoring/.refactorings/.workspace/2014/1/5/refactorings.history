@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DoubleLinkedList&apos; to &apos;FirstLastList&apos;" description="Rename resource &apos;DoubleLinkedList&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/DoubleLinkedList" name="FirstLastList" stamp="1390984099458" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;FirstLastList&apos; to &apos;DoubleEndedList&apos;" description="Rename resource &apos;FirstLastList&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/FirstLastList" name="DoubleEndedList" stamp="1390984977459" updateReferences="true"/>
+</session>

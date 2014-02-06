@@ -1,0 +1,16 @@
+import java.util.concurrent.atomic.AtomicLong;
+
+
+public class UnquieIdGenerationThreadLocal {
+	 private static final AtomicLong nextId = new AtomicLong(0);
+private ThreadLocal<Long> uniqueId=new ThreadLocal<Long>(){
+	@Override
+	protected long initialValue() {
+                 return nextId.getAndIncrement();
+         }
+		     };
+
+public void getUniqueId(){
+	System.out.println(uniqueId.get());
+}
+}

@@ -1,0 +1,21 @@
+package com.pranjay;
+
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class CheckActRaceProbles {
+	private static int count = 0;
+
+	public static void main(String[] args) {
+		ExecutorService executor=Executors.newFixedThreadPool(10);
+		executor.execute(new Runnable(){
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				System.out.println("count value"+count);
+			}
+		};)
+	}
+
+}
