@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=springsecurity/D:\/pranjay\/Google Drive\/Java\/Framework &amp; jars\/spring-security-3.2.0.RC1\/dist\/spring-security-core-3.2.0.RC1.jar&lt;org.springframework.security.authentication(ProviderManager.class[ProviderManager" modifiers="33" timestamp="1376903848000"/>
+<typeInfo handle="=RestWebServicesDemo/F:\/Personal_GIT_Code\/Pranjay\/Eclipse_Spring_WorkSpace\/RestWebServicesDemo\/WebContent\/WEB-INF\/lib\/org.springframework.context-3.0.5.RELEASE.jar&lt;org.springframework.context.annotation(CommonAnnotationBeanPostProcessor.class[CommonAnnotationBeanPostProcessor" modifiers="33" timestamp="1356861446585"/>
+<typeInfo handle="=RestWebServicesDemo/F:\/Personal_GIT_Code\/Pranjay\/Eclipse_Spring_WorkSpace\/RestWebServicesDemo\/WebContent\/WEB-INF\/lib\/org.springframework.context-3.0.5.RELEASE.jar&lt;org.springframework.context.config(ContextNamespaceHandler.class[ContextNamespaceHandler" modifiers="33" timestamp="1356861446585"/>
 </typeInfoHistroy>
