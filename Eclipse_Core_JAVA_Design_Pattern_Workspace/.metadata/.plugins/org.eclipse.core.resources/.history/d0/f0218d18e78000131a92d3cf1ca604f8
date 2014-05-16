@@ -1,0 +1,6 @@
+import java.util.concurrent.atomic.AtomicLong;
+
+
+public class UnquieIdGenerationThreadLocal {
+private ThreadLocal<AtomicLong> uniqueId=new ThreadLocal<AtomicLong>();
+}

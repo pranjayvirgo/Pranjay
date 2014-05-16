@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=BuilderPattern,CountDownLatch,ThreadingSemaphore
+task-tag-projects-already-scanned=BuilderPattern,CountDownLatch,ThreadingSemaphore,CyclicBarrier,FibonaicciSeries,ThreadCheckActRaceCondition,ThreadLocal

@@ -3,4 +3,14 @@
 <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.BoldAction"/>
 <fullyQualifiedTypeName name="com.pranjay.Person"/>
 <fullyQualifiedTypeName name="com.pranjay.Person.PersonBuilder"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executor"/>
+<fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+<fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicLong"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="UnquieIdGenerationThreadLocal"/>
 </qualifiedTypeNameHistroy>
