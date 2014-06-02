@@ -44,6 +44,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 	@Override
 	public UserDetails loadUserByUsername(String userID)
 			throws UsernameNotFoundException {
+		logger.info("**************************user id is"+userID);
 		logger.debug("Fetching the user details for Authentication :"+userID);
 		UserModel userModel = (UserModel) userDao.fetchExistingUser(userID);
 		if(userModel!=null){
