@@ -1,8 +1,0 @@
-INDEX VERSION 1.122+F:\Personal_GIT_Code\Pranjay\Eclipse_Spring_WorkSpace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2965684673.index
-1440946646.index
-3925845778.index
-3141237358.index
-3654390819.index
-2659729894.index
-3134889607.index
